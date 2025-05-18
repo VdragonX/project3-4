@@ -1,0 +1,277 @@
+@charset "utf-8";
+  
+h1 {
+    color: white;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    background-color: rgb(255, 182, 18);
+    text-shadow: -1px -1px 0 rgb(32, 55, 49), 1px -1px 0 rgb(32, 55, 49), 1px 1px 0 rgb(32, 55, 49),
+    1px 1px 0 rgb(32, 55, 49);
+}
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    background-image:linear-gradient(120deg,#22423C,#FCBE14);
+    min-height: 100vh;
+}
+h2 {
+  color:#FCBE14;
+}
+p {
+  color:#FCBE14;
+}
+footer
+{
+    text-align: center;
+    color: #f2f2f2;
+}
+.c-item
+{
+    height: 900px;
+}
+.c-img
+{
+    height: 100%;
+    object-fit: cover;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.split{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+.split.left {
+    left:0;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+}
+.split.right {
+    right:0;
+}
+#page-container {
+    position: relative;
+  }
+  
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
+ /* Style the form */
+ #regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+  }
+  
+  /* Style the input fields */
+  input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
+  
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  /* Mark the active step: */
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #04AA6D;
+  }
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  filter: invert(1) grayscale(1) contrast(9) drop-shadow(.05em .05em rgb(248, 240, 1));
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+a {
+    color: #FCBE14;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.section{
+  min-height: 100vh;
+}
+.hero {
+  width: 80%;
+  margin: auto;
+  padding: 30px 0px;
+}
+article h1 {
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+
+}
+article img {
+  margin: auto;
+  display: block;
+  margin-top: 40px;
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  border: 3px solid #FCBE14;
+}
+article h5{
+  text-align: center;
+}
+article p {
+  text-align: center;
+}
+article content{
+  font-size: 17px;
+  color: #ccc;
+  line-height: 1.5;
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+.container{
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+}
+.text-box{
+  padding: 20px 30px;
+  background: #ffffff;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15pxj ;
+}
+.left-container {
+  left: -20%;
+}
+.right-container {
+  left: 20%;
+}
+.timeline {
+  text-align: center;
+  color: black;
+}
+.timeline p {
+  color: black;
+}
